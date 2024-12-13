@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Correct use of innerHTML using string concatenation
+    document.getElementById("myDiv").innerHTML = "<p>This is a paragraph inside a div.</p>";
+
+    //Alternative using template literals
+    //document.getElementById("myDiv").innerHTML = `<p>This is a paragraph inside a div.</p>`;
+  </script>
+</body>
+</html>
